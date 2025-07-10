@@ -10,7 +10,7 @@ public class Assignment4 {
             System.out.print("Enter Your Nationality:  ");
             String nationality = input.nextLine();
 
-            if (age>= 18 && nationality.equals("Egyption"))
+            if (age>= 18 & nationality.equals("Egyptian"))
             { System.out.println("Eligible to Vote");
             }
             else {
